@@ -7,7 +7,7 @@ var accumulateCounter = function(arr,matchItem){
 			return j;
 		}
 	}
-	return null;
+	return -1;
 }
 
 var getAuthorCount = function(){
@@ -16,7 +16,7 @@ var getAuthorCount = function(){
 	for(var i=0; i<file.rows.length; i++) {
 		var author = file.rows[i].doc.payload.author;
 		var authorIndex=accumulateCounter(out,author);
-		if(typeof authorIndex == "number"){
+		if(authorIndex>-1){
 			out[authorIndex][2].push(file.rows[i].doc.pageid);
 			out[authorIndex][1]++;
 		} else {
@@ -31,7 +31,7 @@ var getPageCount = function(item){
 	var pageCount=[];
 	for(var i=0; i<pages.length; i++){
 		var pageIndex=accumulateCounter(pageCount,pages[i]);
-		if(typeof pageIndex == "number"){
+		if(pageIndex>-1){
 			pageCount[pageIndex][1]++;
 		} else {
 			pageCount.push([pages[i],1])
@@ -41,10 +41,9 @@ var getPageCount = function(item){
 }
 
 var res=getAuthorCount().map(getPageCount);
-//var r=
+
 res.map(function(i){
 	i.splice(2,1);
-	//return [i[0],i[1]];
 });
 console.log(res);
 //fs.writeFileSync("ContributionFromEachPerson.json",JSON.stringify(res,""," "),"utf8");
