@@ -1,0 +1,1519 @@
+[
+ [
+  "2",
+  36,
+  {
+   "T.Gawa": 15,
+   "dhaming": 5,
+   "kuns": 8,
+   "lakdor": 6,
+   "tnam": 2
+  }
+ ],
+ [
+  "3",
+  28,
+  {
+   "T.Gawa": 11,
+   "dhaming": 4,
+   "kuns": 5,
+   "lakdor": 3,
+   "tnam": 5
+  }
+ ],
+ [
+  "4",
+  14,
+  {
+   "T.Gawa": 7,
+   "kuns": 3,
+   "lakdor": 3,
+   "tnam": 1
+  }
+ ],
+ [
+  "5",
+  15,
+  {
+   "T.Gawa": 6,
+   "kuns": 2,
+   "lakdor": 5,
+   "tnam": 2
+  }
+ ],
+ [
+  "6",
+  11,
+  {
+   "T.Gawa": 5,
+   "dhaming": 3,
+   "kuns": 1,
+   "lakdor": 1,
+   "tnam": 1
+  }
+ ],
+ [
+  "7",
+  4,
+  {
+   "T.Gawa": 2,
+   "lakdor": 1,
+   "tnam": 1
+  }
+ ],
+ [
+  "8",
+  10,
+  {
+   "T.Gawa": 4,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "9",
+  10,
+  {
+   "T.Gawa": 3,
+   "dhaming": 1,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "10",
+  4,
+  {
+   "T.Gawa": 2,
+   "dhaming": 1,
+   "kuns": 1
+  }
+ ],
+ [
+  "11",
+  15,
+  {
+   "T.Gawa": 8,
+   "dhaming": 1,
+   "kuns": 3,
+   "lakdor": 1,
+   "tnam": 2
+  }
+ ],
+ [
+  "12",
+  25,
+  {
+   "T.Gawa": 8,
+   "kuns": 6,
+   "lakdor": 5,
+   "tnam": 6
+  }
+ ],
+ [
+  "13",
+  7,
+  {
+   "T.Gawa": 1,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "14",
+  8,
+  {
+   "T.Gawa": 4,
+   "dhaming": 4
+  }
+ ],
+ [
+  "15",
+  37,
+  {
+   "T.Gawa": 12,
+   "dhaming": 6,
+   "kuns": 7,
+   "lakdor": 6,
+   "tnam": 6
+  }
+ ],
+ [
+  "16",
+  17,
+  {
+   "T.Gawa": 6,
+   "dhaming": 2,
+   "kuns": 4,
+   "lakdor": 2,
+   "tnam": 3
+  }
+ ],
+ [
+  "17",
+  88,
+  {
+   "T.Gawa": 30,
+   "dhaming": 13,
+   "kuns": 15,
+   "lakdor": 14,
+   "tnam": 16
+  }
+ ],
+ [
+  "18",
+  81,
+  {
+   "T.Gawa": 29,
+   "dhaming": 12,
+   "kuns": 14,
+   "lakdor": 13,
+   "tnam": 13
+  }
+ ],
+ [
+  "19",
+  146,
+  {
+   "T.Gawa": 51,
+   "dhaming": 23,
+   "kuns": 23,
+   "lakdor": 25,
+   "tnam": 24
+  }
+ ],
+ [
+  "20",
+  30,
+  {
+   "T.Gawa": 13,
+   "dhaming": 3,
+   "kuns": 5,
+   "lakdor": 6,
+   "tnam": 3
+  }
+ ],
+ [
+  "21",
+  27,
+  {
+   "T.Gawa": 10,
+   "dhaming": 4,
+   "kuns": 4,
+   "lakdor": 5,
+   "tnam": 4
+  }
+ ],
+ [
+  "22",
+  53,
+  {
+   "T.Gawa": 21,
+   "dhaming": 10,
+   "kuns": 6,
+   "lakdor": 7,
+   "tnam": 9
+  }
+ ],
+ [
+  "23",
+  19,
+  {
+   "T.Gawa": 5,
+   "dhaming": 4,
+   "kuns": 3,
+   "lakdor": 4,
+   "tnam": 3
+  }
+ ],
+ [
+  "24",
+  44,
+  {
+   "T.Gawa": 17,
+   "dhaming": 9,
+   "kuns": 8,
+   "lakdor": 5,
+   "tnam": 5
+  }
+ ],
+ [
+  "25",
+  15,
+  {
+   "T.Gawa": 8,
+   "dhaming": 2,
+   "kuns": 1,
+   "lakdor": 3,
+   "tnam": 1
+  }
+ ],
+ [
+  "26",
+  105,
+  {
+   "T.Gawa": 43,
+   "dhaming": 18,
+   "kuns": 15,
+   "lakdor": 17,
+   "tnam": 12
+  }
+ ],
+ [
+  "27",
+  277,
+  {
+   "T.Gawa": 95,
+   "dhaming": 50,
+   "kuns": 44,
+   "lakdor": 41,
+   "tnam": 47
+  }
+ ],
+ [
+  "28",
+  256,
+  {
+   "T.Gawa": 88,
+   "dhaming": 42,
+   "kuns": 47,
+   "lakdor": 43,
+   "tnam": 36
+  }
+ ],
+ [
+  "29",
+  233,
+  {
+   "T.Gawa": 57,
+   "dhaming": 44,
+   "kuns": 44,
+   "lakdor": 45,
+   "tnam": 43
+  }
+ ],
+ [
+  "30",
+  25,
+  {
+   "T.Gawa": 15,
+   "dhaming": 6,
+   "kuns": 1,
+   "lakdor": 1,
+   "tnam": 2
+  }
+ ],
+ [
+  "31",
+  45,
+  {
+   "T.Gawa": 18,
+   "dhaming": 6,
+   "kuns": 6,
+   "lakdor": 5,
+   "tnam": 10
+  }
+ ],
+ [
+  "32",
+  161,
+  {
+   "T.Gawa": 57,
+   "dhaming": 27,
+   "kuns": 27,
+   "lakdor": 26,
+   "tnam": 24
+  }
+ ],
+ [
+  "33",
+  25,
+  {
+   "T.Gawa": 11,
+   "dhaming": 6,
+   "kuns": 3,
+   "lakdor": 3,
+   "tnam": 2
+  }
+ ],
+ [
+  "34",
+  10,
+  {
+   "T.Gawa": 3,
+   "dhaming": 3,
+   "kuns": 1,
+   "lakdor": 2,
+   "tnam": 1
+  }
+ ],
+ [
+  "35",
+  11,
+  {
+   "T.Gawa": 6,
+   "kuns": 2,
+   "tnam": 3
+  }
+ ],
+ [
+  "36",
+  16,
+  {
+   "T.Gawa": 6,
+   "kuns": 3,
+   "lakdor": 4,
+   "tnam": 3
+  }
+ ],
+ [
+  "37",
+  91,
+  {
+   "T.Gawa": 28,
+   "dhaming": 11,
+   "kuns": 21,
+   "lakdor": 21,
+   "tnam": 10
+  }
+ ],
+ [
+  "38",
+  12,
+  {
+   "T.Gawa": 6,
+   "dhaming": 2,
+   "kuns": 2,
+   "lakdor": 2
+  }
+ ],
+ [
+  "39",
+  10,
+  {
+   "T.Gawa": 5,
+   "dhaming": 2,
+   "lakdor": 2,
+   "tnam": 1
+  }
+ ],
+ [
+  "40",
+  8,
+  {
+   "T.Gawa": 5,
+   "dhaming": 1,
+   "kuns": 1,
+   "lakdor": 1
+  }
+ ],
+ [
+  "41",
+  16,
+  {
+   "T.Gawa": 10,
+   "dhaming": 3,
+   "lakdor": 3
+  }
+ ],
+ [
+  "42",
+  30,
+  {
+   "T.Gawa": 16,
+   "dhaming": 4,
+   "kuns": 7,
+   "lakdor": 2,
+   "tnam": 1
+  }
+ ],
+ [
+  "43",
+  5,
+  {
+   "T.Gawa": 3,
+   "dhaming": 1,
+   "lakdor": 1
+  }
+ ],
+ [
+  "44",
+  34,
+  {
+   "T.Gawa": 14,
+   "dhaming": 5,
+   "kuns": 5,
+   "lakdor": 6,
+   "tnam": 4
+  }
+ ],
+ [
+  "45",
+  155,
+  {
+   "T.Gawa": 49,
+   "dhaming": 27,
+   "kuns": 29,
+   "lakdor": 22,
+   "tnam": 28
+  }
+ ],
+ [
+  "46",
+  22,
+  {
+   "T.Gawa": 8,
+   "dhaming": 4,
+   "kuns": 3,
+   "lakdor": 3,
+   "tnam": 4
+  }
+ ],
+ [
+  "47",
+  16,
+  {
+   "T.Gawa": 6,
+   "dhaming": 3,
+   "kuns": 2,
+   "lakdor": 3,
+   "tnam": 2
+  }
+ ],
+ [
+  "48",
+  5,
+  {
+   "T.Gawa": 2,
+   "dhaming": 2,
+   "tnam": 1
+  }
+ ],
+ [
+  "49",
+  16,
+  {
+   "T.Gawa": 7,
+   "dhaming": 3,
+   "kuns": 1,
+   "lakdor": 3,
+   "tnam": 2
+  }
+ ],
+ [
+  "50",
+  3,
+  {
+   "T.Gawa": 1,
+   "dhaming": 1,
+   "tnam": 1
+  }
+ ],
+ [
+  "51",
+  100,
+  {
+   "T.Gawa": 35,
+   "dhaming": 16,
+   "kuns": 14,
+   "lakdor": 15,
+   "tnam": 20
+  }
+ ],
+ [
+  "52",
+  197,
+  {
+   "T.Gawa": 66,
+   "dhaming": 33,
+   "kuns": 33,
+   "lakdor": 31,
+   "tnam": 34
+  }
+ ],
+ [
+  "53",
+  65,
+  {
+   "T.Gawa": 21,
+   "dhaming": 11,
+   "kuns": 11,
+   "lakdor": 10,
+   "tnam": 12
+  }
+ ],
+ [
+  "54",
+  23,
+  {
+   "T.Gawa": 11,
+   "dhaming": 8,
+   "lakdor": 1,
+   "tnam": 3
+  }
+ ],
+ [
+  "55",
+  12,
+  {
+   "T.Gawa": 6,
+   "dhaming": 2,
+   "lakdor": 1,
+   "tnam": 3
+  }
+ ],
+ [
+  "56",
+  78,
+  {
+   "T.Gawa": 31,
+   "dhaming": 20,
+   "kuns": 4,
+   "lakdor": 7,
+   "tnam": 16
+  }
+ ],
+ [
+  "57",
+  23,
+  {
+   "T.Gawa": 11,
+   "dhaming": 5,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 3
+  }
+ ],
+ [
+  "58",
+  21,
+  {
+   "T.Gawa": 9,
+   "dhaming": 9,
+   "kuns": 1,
+   "lakdor": 2
+  }
+ ],
+ [
+  "59",
+  13,
+  {
+   "T.Gawa": 4,
+   "dhaming": 2,
+   "kuns": 1,
+   "lakdor": 3,
+   "tnam": 3
+  }
+ ],
+ [
+  "60",
+  8,
+  {
+   "T.Gawa": 2,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "61",
+  40,
+  {
+   "T.Gawa": 15,
+   "dhaming": 8,
+   "kuns": 3,
+   "lakdor": 5,
+   "tnam": 9
+  }
+ ],
+ [
+  "62",
+  67,
+  {
+   "T.Gawa": 32,
+   "dhaming": 21,
+   "kuns": 6,
+   "lakdor": 3,
+   "tnam": 5
+  }
+ ],
+ [
+  "63",
+  74,
+  {
+   "T.Gawa": 34,
+   "dhaming": 29,
+   "kuns": 3,
+   "lakdor": 4,
+   "tnam": 4
+  }
+ ],
+ [
+  "64",
+  49,
+  {
+   "T.Gawa": 18,
+   "dhaming": 12,
+   "kuns": 6,
+   "lakdor": 6,
+   "tnam": 7
+  }
+ ],
+ [
+  "65",
+  78,
+  {
+   "T.Gawa": 31,
+   "dhaming": 26,
+   "kuns": 2,
+   "lakdor": 3,
+   "tnam": 16
+  }
+ ],
+ [
+  "66",
+  16,
+  {
+   "T.Gawa": 7,
+   "dhaming": 4,
+   "kuns": 2,
+   "lakdor": 1,
+   "tnam": 2
+  }
+ ],
+ [
+  "67",
+  20,
+  {
+   "T.Gawa": 8,
+   "dhaming": 7,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 1
+  }
+ ],
+ [
+  "68",
+  36,
+  {
+   "T.Gawa": 14,
+   "dhaming": 11,
+   "kuns": 2,
+   "lakdor": 4,
+   "tnam": 5
+  }
+ ],
+ [
+  "69",
+  36,
+  {
+   "T.Gawa": 16,
+   "dhaming": 12,
+   "kuns": 1,
+   "lakdor": 3,
+   "tnam": 4
+  }
+ ],
+ [
+  "70",
+  53,
+  {
+   "T.Gawa": 19,
+   "dhaming": 10,
+   "kuns": 11,
+   "lakdor": 6,
+   "tnam": 7
+  }
+ ],
+ [
+  "71",
+  226,
+  {
+   "T.Gawa": 73,
+   "dhaming": 38,
+   "kuns": 38,
+   "lakdor": 39,
+   "tnam": 38
+  }
+ ],
+ [
+  "72",
+  207,
+  {
+   "T.Gawa": 70,
+   "dhaming": 36,
+   "kuns": 31,
+   "lakdor": 35,
+   "tnam": 35
+  }
+ ],
+ [
+  "73",
+  28,
+  {
+   "T.Gawa": 14,
+   "dhaming": 8,
+   "kuns": 1,
+   "lakdor": 1,
+   "tnam": 4
+  }
+ ],
+ [
+  "74",
+  17,
+  {
+   "T.Gawa": 6,
+   "dhaming": 4,
+   "kuns": 3,
+   "lakdor": 3,
+   "tnam": 1
+  }
+ ],
+ [
+  "75",
+  13,
+  {
+   "T.Gawa": 4,
+   "dhaming": 1,
+   "kuns": 2,
+   "lakdor": 3,
+   "tnam": 3
+  }
+ ],
+ [
+  "76",
+  8,
+  {
+   "T.Gawa": 3,
+   "kuns": 1,
+   "lakdor": 3,
+   "tnam": 1
+  }
+ ],
+ [
+  "77",
+  10,
+  {
+   "T.Gawa": 5,
+   "dhaming": 3,
+   "kuns": 1,
+   "lakdor": 1
+  }
+ ],
+ [
+  "78",
+  103,
+  {
+   "T.Gawa": 50,
+   "dhaming": 45,
+   "kuns": 1,
+   "lakdor": 6,
+   "tnam": 1
+  }
+ ],
+ [
+  "79",
+  124,
+  {
+   "T.Gawa": 41,
+   "dhaming": 36,
+   "kuns": 14,
+   "lakdor": 17,
+   "tnam": 16
+  }
+ ],
+ [
+  "80",
+  22,
+  {
+   "T.Gawa": 13,
+   "dhaming": 6,
+   "kuns": 2,
+   "lakdor": 1
+  }
+ ],
+ [
+  "81",
+  38,
+  {
+   "T.Gawa": 19,
+   "dhaming": 18,
+   "lakdor": 1
+  }
+ ],
+ [
+  "82",
+  22,
+  {
+   "T.Gawa": 8,
+   "dhaming": 6,
+   "kuns": 4,
+   "lakdor": 4
+  }
+ ],
+ [
+  "83",
+  25,
+  {
+   "T.Gawa": 13,
+   "dhaming": 9,
+   "kuns": 2,
+   "lakdor": 1
+  }
+ ],
+ [
+  "84",
+  24,
+  {
+   "T.Gawa": 13,
+   "dhaming": 8,
+   "kuns": 1,
+   "tnam": 2
+  }
+ ],
+ [
+  "85",
+  32,
+  {
+   "T.Gawa": 17,
+   "dhaming": 4,
+   "kuns": 3,
+   "lakdor": 5,
+   "tnam": 3
+  }
+ ],
+ [
+  "86",
+  35,
+  {
+   "T.Gawa": 21,
+   "dhaming": 3,
+   "kuns": 4,
+   "lakdor": 4,
+   "tnam": 3
+  }
+ ],
+ [
+  "87",
+  12,
+  {
+   "T.Gawa": 7,
+   "dhaming": 1,
+   "kuns": 1,
+   "lakdor": 2,
+   "tnam": 1
+  }
+ ],
+ [
+  "88",
+  29,
+  {
+   "T.Gawa": 16,
+   "dhaming": 6,
+   "kuns": 1,
+   "lakdor": 1,
+   "tnam": 5
+  }
+ ],
+ [
+  "89",
+  52,
+  {
+   "T.Gawa": 21,
+   "dhaming": 11,
+   "kuns": 7,
+   "lakdor": 7,
+   "tnam": 6
+  }
+ ],
+ [
+  "90",
+  24,
+  {
+   "T.Gawa": 13,
+   "dhaming": 2,
+   "kuns": 4,
+   "lakdor": 2,
+   "tnam": 3
+  }
+ ],
+ [
+  "91",
+  21,
+  {
+   "T.Gawa": 9,
+   "dhaming": 3,
+   "kuns": 4,
+   "lakdor": 2,
+   "tnam": 3
+  }
+ ],
+ [
+  "92",
+  187,
+  {
+   "T.Gawa": 58,
+   "dhaming": 32,
+   "kuns": 31,
+   "lakdor": 31,
+   "tnam": 35
+  }
+ ],
+ [
+  "93",
+  126,
+  {
+   "T.Gawa": 36,
+   "dhaming": 26,
+   "kuns": 21,
+   "lakdor": 21,
+   "tnam": 22
+  }
+ ],
+ [
+  "94",
+  24,
+  {
+   "dhaming": 13,
+   "kuns": 2,
+   "lakdor": 3,
+   "tnam": 6
+  }
+ ],
+ [
+  "95",
+  10,
+  {
+   "dhaming": 3,
+   "kuns": 3,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "96",
+  9,
+  {
+   "dhaming": 1,
+   "kuns": 2,
+   "lakdor": 5,
+   "tnam": 1
+  }
+ ],
+ [
+  "97",
+  9,
+  {
+   "dhaming": 2,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 3
+  }
+ ],
+ [
+  "98",
+  20,
+  {
+   "dhaming": 5,
+   "kuns": 6,
+   "lakdor": 3,
+   "tnam": 6
+  }
+ ],
+ [
+  "99",
+  9,
+  {
+   "dhaming": 3,
+   "kuns": 2,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "100",
+  6,
+  {
+   "kuns": 3,
+   "lakdor": 2,
+   "tnam": 1
+  }
+ ],
+ [
+  "101",
+  11,
+  {
+   "dhaming": 3,
+   "kuns": 4,
+   "lakdor": 4
+  }
+ ],
+ [
+  "102",
+  3,
+  {
+   "kuns": 1,
+   "lakdor": 2
+  }
+ ],
+ [
+  "103",
+  6,
+  {
+   "dhaming": 3,
+   "kuns": 1,
+   "lakdor": 2
+  }
+ ],
+ [
+  "104",
+  3,
+  {
+   "dhaming": 2,
+   "lakdor": 1
+  }
+ ],
+ [
+  "105",
+  12,
+  {
+   "kuns": 12
+  }
+ ],
+ [
+  "106",
+  17,
+  {
+   "dhaming": 5,
+   "kuns": 5,
+   "lakdor": 6,
+   "tnam": 1
+  }
+ ],
+ [
+  "107",
+  14,
+  {
+   "dhaming": 1,
+   "kuns": 6,
+   "lakdor": 4,
+   "tnam": 3
+  }
+ ],
+ [
+  "108",
+  1,
+  {
+   "lakdor": 1
+  }
+ ],
+ [
+  "109",
+  16,
+  {
+   "dhaming": 4,
+   "kuns": 5,
+   "lakdor": 3,
+   "tnam": 4
+  }
+ ],
+ [
+  "110",
+  10,
+  {
+   "kuns": 4,
+   "lakdor": 2,
+   "tnam": 4
+  }
+ ],
+ [
+  "111",
+  6,
+  {
+   "dhaming": 2,
+   "lakdor": 3,
+   "tnam": 1
+  }
+ ],
+ [
+  "112",
+  13,
+  {
+   "dhaming": 2,
+   "kuns": 5,
+   "lakdor": 3,
+   "tnam": 3
+  }
+ ],
+ [
+  "113",
+  27,
+  {
+   "dhaming": 4,
+   "kuns": 4,
+   "lakdor": 10,
+   "tnam": 9
+  }
+ ],
+ [
+  "114",
+  13,
+  {
+   "dhaming": 6,
+   "kuns": 3,
+   "lakdor": 1,
+   "tnam": 3
+  }
+ ],
+ [
+  "115",
+  10,
+  {
+   "dhaming": 3,
+   "kuns": 2,
+   "lakdor": 4,
+   "tnam": 1
+  }
+ ],
+ [
+  "116",
+  119,
+  {
+   "dhaming": 31,
+   "kuns": 31,
+   "lakdor": 27,
+   "tnam": 30
+  }
+ ],
+ [
+  "117",
+  47,
+  {
+   "dhaming": 11,
+   "kuns": 12,
+   "lakdor": 12,
+   "tnam": 12
+  }
+ ],
+ [
+  "118",
+  10,
+  {
+   "dhaming": 1,
+   "kuns": 3,
+   "lakdor": 3,
+   "tnam": 3
+  }
+ ],
+ [
+  "119",
+  80,
+  {
+   "dhaming": 20,
+   "kuns": 18,
+   "lakdor": 22,
+   "tnam": 20
+  }
+ ],
+ [
+  "120",
+  114,
+  {
+   "dhaming": 28,
+   "kuns": 28,
+   "lakdor": 30,
+   "tnam": 28
+  }
+ ],
+ [
+  "121",
+  93,
+  {
+   "dhaming": 25,
+   "kuns": 24,
+   "lakdor": 23,
+   "tnam": 21
+  }
+ ],
+ [
+  "122",
+  91,
+  {
+   "dhaming": 25,
+   "kuns": 24,
+   "lakdor": 21,
+   "tnam": 21
+  }
+ ],
+ [
+  "123",
+  97,
+  {
+   "dhaming": 20,
+   "kuns": 34,
+   "lakdor": 23,
+   "tnam": 20
+  }
+ ],
+ [
+  "124",
+  88,
+  {
+   "dhaming": 24,
+   "kuns": 21,
+   "lakdor": 22,
+   "tnam": 21
+  }
+ ],
+ [
+  "125",
+  43,
+  {
+   "dhaming": 11,
+   "kuns": 12,
+   "lakdor": 10,
+   "tnam": 10
+  }
+ ],
+ [
+  "126",
+  61,
+  {
+   "dhaming": 16,
+   "kuns": 15,
+   "lakdor": 15,
+   "tnam": 15
+  }
+ ],
+ [
+  "127",
+  11,
+  {
+   "dhaming": 5,
+   "kuns": 2,
+   "lakdor": 1,
+   "tnam": 3
+  }
+ ],
+ [
+  "128",
+  39,
+  {
+   "dhaming": 11,
+   "kuns": 9,
+   "lakdor": 10,
+   "tnam": 9
+  }
+ ],
+ [
+  "129",
+  38,
+  {
+   "dhaming": 9,
+   "kuns": 10,
+   "lakdor": 10,
+   "tnam": 9
+  }
+ ],
+ [
+  "130",
+  14,
+  {
+   "dhaming": 2,
+   "kuns": 2,
+   "lakdor": 10
+  }
+ ],
+ [
+  "131",
+  11,
+  {
+   "dhaming": 3,
+   "kuns": 3,
+   "lakdor": 3,
+   "tnam": 2
+  }
+ ],
+ [
+  "132",
+  4,
+  {
+   "dhaming": 1,
+   "kuns": 1,
+   "lakdor": 1,
+   "tnam": 1
+  }
+ ],
+ [
+  "133",
+  38,
+  {
+   "dhaming": 2,
+   "kuns": 24,
+   "lakdor": 2,
+   "tnam": 10
+  }
+ ],
+ [
+  "134",
+  24,
+  {
+   "dhaming": 4,
+   "kuns": 9,
+   "lakdor": 5,
+   "tnam": 6
+  }
+ ],
+ [
+  "135",
+  22,
+  {
+   "dhaming": 12,
+   "kuns": 1,
+   "lakdor": 8,
+   "tnam": 1
+  }
+ ],
+ [
+  "136",
+  18,
+  {
+   "dhaming": 8,
+   "kuns": 1,
+   "lakdor": 8,
+   "tnam": 1
+  }
+ ],
+ [
+  "137",
+  13,
+  {
+   "dhaming": 2,
+   "kuns": 7,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "138",
+  8,
+  {
+   "dhaming": 3,
+   "kuns": 1,
+   "lakdor": 2,
+   "tnam": 2
+  }
+ ],
+ [
+  "139",
+  13,
+  {
+   "dhaming": 3,
+   "kuns": 1,
+   "lakdor": 4,
+   "tnam": 5
+  }
+ ],
+ [
+  "140",
+  14,
+  {
+   "dhaming": 4,
+   "kuns": 2,
+   "lakdor": 6,
+   "tnam": 2
+  }
+ ],
+ [
+  "141",
+  11,
+  {
+   "dhaming": 2,
+   "kuns": 4,
+   "lakdor": 3,
+   "tnam": 2
+  }
+ ],
+ [
+  "142",
+  6,
+  {
+   "dhaming": 3,
+   "kuns": 2,
+   "lakdor": 1
+  }
+ ],
+ [
+  "143",
+  3,
+  {
+   "dhaming": 1,
+   "kuns": 1,
+   "tnam": 1
+  }
+ ],
+ [
+  "144",
+  1,
+  {
+   "lakdor": 1
+  }
+ ],
+ [
+  "145",
+  1,
+  {
+   "dhaming": 1
+  }
+ ],
+ [
+  "146",
+  6,
+  {
+   "dhaming": 1,
+   "kuns": 2,
+   "tnam": 3
+  }
+ ],
+ [
+  "147",
+  3,
+  {
+   "dhaming": 1,
+   "kuns": 1,
+   "lakdor": 1
+  }
+ ],
+ [
+  "148",
+  1,
+  {
+   "dhaming": 1
+  }
+ ],
+ [
+  "149",
+  2,
+  {
+   "dhaming": 1,
+   "lakdor": 1
+  }
+ ],
+ [
+  "150",
+  4,
+  {
+   "tnam": 4
+  }
+ ],
+ [
+  "152",
+  1,
+  {
+   "tnam": 1
+  }
+ ]
+]
