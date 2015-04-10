@@ -7,6 +7,6 @@ var rename = function(item){
 	//console.log(newfn);	
 }
 
-glob("./*/**/**/*.json",function(err,files){
+glob("./*/**/**/*.txt",function(err,files){
 	files.map(rename);
 });
