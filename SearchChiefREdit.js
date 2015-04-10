@@ -46,7 +46,7 @@ function checkBound(filename){
 
 glob("./*/**/**/*.json",function(err,files){
     files.map(checkBound);    
-    unique(dataGroup);
+    dataGroup=unique(dataGroup);
     console.log(dataGroup);
     fs.writeFileSync("Result_SerchChiefWords.json",JSON.stringify(dataGroup,""," "),"utf8");
 });
