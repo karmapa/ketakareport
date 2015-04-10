@@ -33,7 +33,7 @@ function checkBound(filename){
 			if(a.doc.payload.type =="suggest" && kwd==a.doc.payload.author)
 			{
 				var chiefmrkp=[a.doc.payload.author,
-				a.doc.start,a.doc.len,a.doc.pageid,a.doc.len,a.doc.payload.text];
+				a.doc.start,a.doc.len,a.doc.pageid,a.doc.payload.text];
                 
                 dataGroup.push(chiefmrkp);   
 			}
