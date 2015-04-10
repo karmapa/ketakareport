@@ -1,14 +1,21 @@
 var glob=require("glob");
+var fs=require("fs");
+var unique=require("./unique");
 
+var dataGroup= []; //[chief proff reader, 修改字起始,長度,頁數,修改字]
 
-function CheckBound(filename){
-
-	var fs=require("fs");  
-	var file=JSON.parse(fs.readFileSync(filename,"utf8"));
-
-
+function checkBound(filename){
+	//console.log(filename);
+	var content=fs.readFileSync(filename,"utf8");
+	var file=null;
+	try {
+		file=JSON.parse(content); 
+	} catch(e) {
+		console.log(e)
+		throw "error handling file"+filename
+	}
 	var Person_obj={}; //chief proof reader 名單
-	var DataGroup= []; //[chief proff reader, 修改字起始,長度,頁數,修改字]
+	//console.log(filename);
 
 	file.rows.map(function(a){
 	  if(a.doc.payload.type =="revision")
@@ -25,40 +32,42 @@ function CheckBound(filename){
 
 			if(a.doc.payload.type =="suggest" && kwd==a.doc.payload.author)
 			{
-				var Arrpush=[a.doc.payload.author,
+				var chiefmrkp=[a.doc.payload.author,
 				a.doc.start,a.doc.len,a.doc.pageid,a.doc.len,a.doc.payload.text];
                 
-                DataGroup.push(Arrpush);   
+                dataGroup.push(chiefmrkp);   
 			}
 		});        
 		
 	});
-    
-DataGroup=DataGroup.ToUnique();
-console.log(DataGroup);
+
 
 }
 
-Array.prototype.ToUnique = function()
-{
-	var n = {},r=[];
-	for(var i = 0; i < this.length; i++) 
-	{
-		if (!n[this[i]]) 
-		{
-			n[this[i]] = true; 
-			r.push(this[i]); 
-		}
-	}
-	return r;
-}
 
-//fs.writeFileSync("SerchChiefWordsResults.json",JSON.stringify(DataGroup,""," "),"utf8");
-
-//CheckBound("0304-001.json");
-glob("./*/*/*.json",function(err,files){
-        files.map(CheckBound);
- 		//console.log(files);     
-    
+glob("./*/**/**/*.json",function(err,files){
+	//console.log(files);
+    files.map(checkBound);    
+    unique(dataGroup);
+    console.log(dataGroup);
+    fs.writeFileSync("Result_SerchChiefWords.json",JSON.stringify(dataGroup,""," "),"utf8");
 });
 
+// var glob=require("glob");
+
+// var fs=require("fs"); 
+
+// function checknow(filename){
+	     
+//   var rt=fs.readFileSync(filename,"utf8");
+//   var c=rt.match(/\"key\":\"jiangkangyurlj0304_001_lakdor_3_240\",\"value\":{\"rev\":\"23-8804/g);  
+//    if(c!=null)
+//   console.log(filename);
+// }
+
+// glob("./*/**/**/*.json",function(err,files){
+// //	console.log(files);
+//      files.map(checknow);    
+//     // unique(dataGroup)
+//     // fs.writeFileSync("Result_SerchChiefWords.json",JSON.stringify(dataGroup,""," "),"utf8");
+// });
