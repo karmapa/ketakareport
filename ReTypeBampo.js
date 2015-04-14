@@ -21,6 +21,7 @@ var arr=Object.keys(pageGroup).map(function(kwd){
 	});
 
     var resultArray=GroupByPageId(pageArray);
+    console.log(kwd+":"+pageArray.length);
     fs.writeFileSync("d"+kwd.replace(/-/, '_'),JSON.stringify(resultArray,""," "),"utf8");
 
 });
