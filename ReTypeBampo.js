@@ -15,13 +15,13 @@ var arr=Object.keys(pageGroup).map(function(kwd){
     var pageArray=[];  //根據頁	
 	file.map(function(a){   
        if(kwd==a[5]) 
-       	{       
+       	{   a.pop();     
        		pageArray.push(a);  //根據json         		
        	}       
 	});
 
     GroupByPageId(pageArray);
-    fs.writeFileSync("d"+kwd.replace(/-/, '_')+".json",JSON.stringify(arrGroup,""," "),"utf8");
+    fs.writeFileSync("d"+kwd.replace(/-/, '_'),JSON.stringify(arrGroup,""," "),"utf8");
 
 });
 
