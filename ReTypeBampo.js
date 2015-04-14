@@ -2,15 +2,15 @@ var fs=require("fs");
 var rt=fs.readFileSync("./Result_SerchChiefWords.json","utf8");
 var file=JSON.parse(rt); 
 var pageGroup={};
-var arrGroup=[];
+
 
 file.map(function(q){
 	  if(!(q[5] in pageGroup)) pageGroup[q[5]]=q[5];    
 });
 
- 
 //根據每個json再做 group
 var arr=Object.keys(pageGroup).map(function(kwd){
+    
 
     var pageArray=[];  //根據頁	
 	file.map(function(a){   
@@ -20,16 +20,18 @@ var arr=Object.keys(pageGroup).map(function(kwd){
        	}       
 	});
 
-    GroupByPageId(pageArray);
-    fs.writeFileSync("d"+kwd.replace(/-/, '_'),JSON.stringify(arrGroup,""," "),"utf8");
+    var resultArray=GroupByPageId(pageArray);
+    fs.writeFileSync("d"+kwd.replace(/-/, '_'),JSON.stringify(resultArray,""," "),"utf8");
 
 });
 
 function GroupByPageId(pageArray)
 {
 	var objGroup={};
-    pageArray.map(function(q){
-	  if(!(q[3] in objGroup)) objGroup[q[3]]=q[3];    
+    var arrGroup=[];
+
+    pageArray.map(function(q){   //每一個page 是一個pageArray
+	   if(!(q[3] in objGroup)) objGroup[q[3]]=q[3];    
     });
 
 	var subarr=Object.keys(objGroup).map(function(kwd)
@@ -50,4 +52,5 @@ function GroupByPageId(pageArray)
 					});
 	                arrGroup.push(subidArray);
 			});
+	 return arrGroup;
 }
