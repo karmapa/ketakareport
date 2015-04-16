@@ -12,7 +12,7 @@ function checkBound(filename){
 		file=JSON.parse(content); 
 	} catch(e) {
 		console.log(e);
-		throw "error handling file"+filename;
+		//throw "error handling file"+filename;
 	}
 	var Person_obj={}; //chief proof reader 名單
 
@@ -29,10 +29,10 @@ function checkBound(filename){
 	{	
 		 file.rows.map(function(a){
 
-			if(a.doc.payload.type =="suggest" && kwd==a.doc.payload.author)
+			if((a.doc.payload.type =="suggest" || a.doc.payload.type =="revision") && kwd==a.doc.payload.author)
 			{
 				var chiefmrkp=[a.doc.payload.author,
-				a.doc.start,a.doc.len,a.doc.pageid,a.doc.payload.text];
+				a.doc.start,a.doc.len,a.doc.pageid,a.doc.payload.text,filename.replace(/^.*[\\\/]/, '')];
                 
                 dataGroup.push(chiefmrkp);   
 			}
@@ -44,9 +44,10 @@ function checkBound(filename){
 }
 
 
-glob("./*/**/**/*.json",function(err,files){
+glob("./NewReport/*.json",function(err,files){
     files.map(checkBound);    
     dataGroup=unique(dataGroup);
+
     console.log(dataGroup);
     fs.writeFileSync("Result_SerchChiefWords.json",JSON.stringify(dataGroup,""," "),"utf8");
 });
