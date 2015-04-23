@@ -10,17 +10,17 @@ var accumulateCounter = function(arr,matchItem){
 	return -1;
 }
 
-var getAuthorCount = function(){
-	var file=JSON.parse(fs.readFileSync("./0304-001.json","utf8"));//./0304-001.json
+var getAuthorCount = function(fn){
+	var file=JSON.parse(fs.readFileSync(fn,"utf8"));//./0304-001.json
 	var out=[];
 	for(var i=0; i<file.rows.length; i++) {
 		var author = file.rows[i].doc.payload.author;
 		var authorIndex=accumulateCounter(out,author);
 		if(authorIndex>-1){
-			out[authorIndex][2].push(file.rows[i].doc.pageid);
+			//out[authorIndex][2].push(file.rows[i].doc.pageid);
 			out[authorIndex][1]++;
 		} else {
-			out.push([author,1,[file.rows[i].doc.pageid]]);
+			out.push([author,1]);//,[file.rows[i].doc.pageid]
 		}
 	}
 	return out;
@@ -40,10 +40,10 @@ var getPageCount = function(item){
 	return item.concat(pageCount);
 }
 
-var res=getAuthorCount().map(getPageCount);
 
-res.map(function(i){
-	i.splice(2,1);
-});
+res=getAuthorCount("./0304-001.json");
+// res.map(function(i){
+// 	i.splice(2,1);
+// });
 console.log(res);
 //fs.writeFileSync("ContributionFromEachPerson.json",JSON.stringify(res,""," "),"utf8");
