@@ -1,2 +1,4 @@
 *.txt
 Database backup from IND/
+dump/
+DB/
