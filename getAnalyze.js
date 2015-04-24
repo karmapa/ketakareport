@@ -10,4 +10,3 @@ for(var i in performance){
 }
 console.log(precision);
 fs.writeFileSync("analyze.json",JSON.stringify(precision,""," "),"utf8");
-//console.log(performance["lj0304-001"]);
