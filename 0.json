@@ -1,0 +1,202 @@
+{
+ "total_rows": 6123,
+ "offset": 0,
+ "rows": [
+  {
+   "id": "jiangkangyurlj0304_001_T.Gawa_10_1321",
+   "key": "jiangkangyurlj0304_001_T.Gawa_10_1321",
+   "value": {
+    "rev": "10-bdb79164030f80d716c23031c54986b3"
+   },
+   "doc": {
+    "start": 1321,
+    "len": 6,
+    "pageid": 10,
+    "payload": {
+     "type": "suggest",
+     "author": "T.Gawa",
+     "text": "འདི་",
+     "reason": "",
+     "state": "",
+     "_rev": "9-dd83e2b17dcd93957f1940776b5a57d9"
+    },
+    "_id": "jiangkangyurlj0304_001_T.Gawa_10_1321",
+    "_rev": "10-bdb79164030f80d716c23031c54986b3"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_T.Gawa_53_96",
+   "key": "jiangkangyurlj0304_001_T.Gawa_53_96",
+   "value": {
+    "rev": "2-ab9be6aba93549fc6363c9e88f35a4f7"
+   },
+   "doc": {
+    "start": 96,
+    "len": 5,
+    "pageid": 53,
+    "payload": {
+     "type": "revision",
+     "text": "བྲལ། །",
+     "contributor": "dhaming",
+     "author": "T.Gawa",
+     "_rev": "1-ced5f086ddd178e43fed4b651268fa58"
+    },
+    "_id": "jiangkangyurlj0304_001_T.Gawa_53_96",
+    "_rev": "2-ab9be6aba93549fc6363c9e88f35a4f7"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_tnam_53_96",
+   "key": "jiangkangyurlj0304_001_tnam_53_96",
+   "value": {
+    "rev": "15-2b93c51c84c3853e1cf3c6941d2ac9ad"
+   },
+   "doc": {
+    "start": 96,
+    "len": 5,
+    "pageid": 53,
+    "payload": {
+     "type": "suggest",
+     "author": "tnam",
+     "text": "བྲལ། །",
+     "reason": "",
+     "state": "reject",
+     "_rev": "14-0c0d3725a4b5ea04a51f6fd00334ed83"
+    },
+    "_id": "jiangkangyurlj0304_001_tnam_53_96",
+    "_rev": "15-2b93c51c84c3853e1cf3c6941d2ac9ad"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_dhaming_53_96",
+   "key": "jiangkangyurlj0304_001_dhaming_53_96",
+   "value": {
+    "rev": "5-2fe41d7e15ae15725d3c27baa06253f9"
+   },
+   "doc": {
+    "start": 96,
+    "len": 5,
+    "pageid": 53,
+    "payload": {
+     "type": "suggest",
+     "author": "dhaming",
+     "text": "བྲལ། །",
+     "reason": "",
+     "state": "approve",
+     "_rev": "4-b6b231452d2b80485098c17603273578"
+    },
+    "_id": "jiangkangyurlj0304_001_dhaming_53_96",
+    "_rev": "5-2fe41d7e15ae15725d3c27baa06253f9"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_tnam_99_208",
+   "key": "jiangkangyurlj0304_001_tnam_99_208",
+   "value": {
+    "rev": "5-d74d8b8c826ec2cbf11c56fad2a1256b"
+   },
+   "doc": {
+    "start": 208,
+    "len": 5,
+    "pageid": 8,
+    "payload": {
+     "type": "suggest",
+     "author": "tnam",
+     "text": "མཐས་",
+     "reason": "",
+     "state": "",
+     "_rev": "4-38fdaf21a49d9cd3d1ca63795c6a1f37"
+    },
+    "_id": "jiangkangyurlj0304_001_tnam_99_208",
+    "_rev": "5-d74d8b8c826ec2cbf11c56fad2a1256b"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_tnam_9_1172",
+   "key": "jiangkangyurlj0304_001_tnam_9_1172",
+   "value": {
+    "rev": "17-2f326880ae9a330e6d4a29e040068dc3"
+   },
+   "doc": {
+    "start": 1172,
+    "len": 5,
+    "pageid": 99,
+    "payload": {
+     "type": "suggest",
+     "author": "tnam",
+     "text": "དོ། ",
+     "reason": "",
+     "state": "reject",
+     "_rev": "16-7630d17cb9fea71cdb2ace12667c2b77"
+    },
+    "_id": "jiangkangyurlj0304_001_tnam_9_1172",
+    "_rev": "17-2f326880ae9a330e6d4a29e040068dc3"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_T.Gawa_5_1424",
+   "key": "jiangkangyurlj0304_001_T.Gawa_5_1424",
+   "value": {
+    "rev": "14-e62005573ebb3fab47380cac5bd48dec"
+   },
+   "doc": {
+    "start": 1424,
+    "len": 3,
+    "pageid": 5,
+    "payload": {
+     "type": "revision",
+     "text": "ཏུ་",
+     "contributor": "lakdor",
+     "author": "T.Gawa",
+     "_rev": "13-600e7019a64d4b7b33342f49dfe69686"
+    },
+    "_id": "jiangkangyurlj0304_001_T.Gawa_5_1424",
+    "_rev": "14-e62005573ebb3fab47380cac5bd48dec"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_lakdor_5_1424",
+   "key": "jiangkangyurlj0304_001_lakdor_5_1424",
+   "value": {
+    "rev": "23-f99aaf8359cd358403440236bcc61ce2"
+   },
+   "doc": {
+    "start": 1424,
+    "len": 3,
+    "pageid": 5,
+    "payload": {
+     "type": "suggest",
+     "author": "lakdor",
+     "text": "ཏུ་",
+     "reason": "",
+     "state": "approve",
+     "_rev": "22-116623a13490ed9ee30d044efc5f1be1"
+    },
+    "_id": "jiangkangyurlj0304_001_lakdor_5_1424",
+    "_rev": "23-f99aaf8359cd358403440236bcc61ce2"
+   }
+  },
+  {
+   "id": "jiangkangyurlj0304_001_tnam_9_1219",
+   "key": "jiangkangyurlj0304_001_tnam_9_1219",
+   "value": {
+    "rev": "18-7333b60393e7d4aca6e491a66d321ba8"
+   },
+   "doc": {
+    "start": 1424,
+    "len": 3,
+    "pageid": 5,
+    "payload": {
+     "type": "suggest",
+     "author": "tnam",
+     "text": "ཏུ་",
+     "reason": "",
+     "state": "approve",
+     "_rev": "17-34441937b7966b412f9461d64c9efed7"
+    },
+    "_id": "jiangkangyurlj0304_001_tnam_9_1219",
+    "_rev": "18-7333b60393e7d4aca6e491a66d321ba8"
+   }
+  }
+ ]
+}
