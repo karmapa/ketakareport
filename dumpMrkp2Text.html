@@ -1,0 +1,42 @@
+1. 把jiangkangyur.kdb從jiangkangyur複製到ketakareport
+2. 將要處理的檔檔名設為d開頭(ex. 0303_001.json -> d0303_001.json)，並放到dump內
+3. 執行node addMarkup.js 
+4. 出來的結果在dump內，檔名為bampo0303_001.json
+5. 在bampo0303_001.json內開頭加上var bampo0303_001=，另存為js檔
+6. 將這個bampo0303_001.js檔include到html內，在網頁顯示才看得到紅色綠色的修改
+
+	<html charset="utf-8">
+	  <script src="./dump/bampo0303_001.js" charset="utf-8"></script>
+	  <style>
+	    body{margin:30px;}
+	    .delete{color:red;text-decoration: line-through;}
+	    .add{color: green;}
+	  </style>
+	  <body>
+
+	    <div id="page"></div>
+
+	  </body>
+	  <script>
+
+		  var out="";
+
+		  bampo0303_001.sort(function(a,b) {
+		    var x=parseInt(a[0].substr(a[0].indexOf(".")+1).replace(/[ab]/,""));
+		    var y=parseInt(b[0].substr(b[0].indexOf(".")+1).replace(/[ab]/,""));
+		    if(x>y) return 1;
+		    else if(x<y) return -1;
+		    else if(x==y) {
+		      return a[0]>b[0];
+		    }
+		  });
+
+		  bampo0303_001.map(function(item){
+		    out+="<br><h2>"+item[0]+"</h2><br>"+item[1];
+		  });
+
+		  document.getElementById("page").innerHTML=out;
+
+	  </script>
+
+	</html>
