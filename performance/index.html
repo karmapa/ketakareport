@@ -91,7 +91,7 @@ d3.json("analyze.json", function(data) {
 
   svg.selectAll(".precision")
       .data(data)       
-    .enter()//.append("g")
+    .enter().append("g")
       .append("text")
         .attr("class", "precision")
         .attr("x", function(d) { return x(d.pr) + 30; })

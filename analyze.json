@@ -1,6 +1,14 @@
-[
-  {"pr": "dhaming", "presicion": "0.664"},
-  {"pr": "lakdor", "presicion":  "0.527"},
-  {"pr": "kuns", "presicion":  "0.804"},
-  {"pr": "tnam", "presicion":  "0.779"}
-]
+{
+ "lj0304-001": {
+  "dhaming": "0.664",
+  "lakdor": "0.527",
+  "kuns": "0.804",
+  "tnam": "0.779"
+ },
+ "lj0305-001": {
+  "tnam": "0.342",
+  "dhaming": "0.365",
+  "lakdor": "0.696",
+  "kuns": "0.870"
+ }
+}
