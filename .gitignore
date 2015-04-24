@@ -2,3 +2,5 @@
 Database backup from IND/
 dump/
 DB/
+markup/
+*.kdb
