@@ -1,37 +1,58 @@
 var fs=require("fs");
-var file=fs.readFileSync("./lj.xml","utf8");
+var glob=require("glob");
 var kde=require("ksana-database");  // Ksana Database Engine
 var kse=require("ksana-search"); // Ksana Search Engine (run at client side)
-//console.log(file);
 
-// var insert = function(text,index, string) {
-// 	return text.substr(0,index) + string + text.substr(index);
-// };
+var processMrkp = function(mrkpsByPage,fileid,pageid,fn,out) {//mrkpsByPage,fileid,pageid
+	var correctedText, pagename;
+	kde.open("jiangkangyur",function(a,db){
+		    kse.highlightSeg(db,fileid,pageid-1,{token:false},function(data){//kde
+		    	pagename=db.getFileSegNames([fileid])[pageid-1];
+		    	correctedText=data.text;
+		    	// console.log(pageid);
+		    	// console.log(mrkpsByPage.length);
+		    	for(var i=0; i<mrkpsByPage.length; i++){
+		    		var start=mrkpsByPage[i][1],len=mrkpsByPage[i][2],string=mrkpsByPage[i][4];
+		    		correctedText=correctedText.substr(0,start)+"<span class='delete'>"+correctedText.substr(start,len)+'</span>'+"<span class='add'>  "+string+'  </span>'+correctedText.substr(start+len);
+		    	}
+		    	out.push([pagename,correctedText]);
+		    	fs.writeFileSync("./markup/bampo"+fn+".json",JSON.stringify(out,""," "),"utf8");
+		    	//console.log("------"+pagename+"-------\n\n"+correctedText+"\n\n");//fn,"------"+pagename+"-------\n\n"+correctedText+"\n\n"
+		    });
 
-// var addMarkup = function(start,string) {
-// 	//遇到藏文start才會-- i指向目前看到的字元
-// 	var i=0;
-// 	while(start){
-// 		if((parseInt(file[i].charCodeAt()) > 3840 && parseInt(file[i].charCodeAt()) < 4095)) {
-// 			start--;
-// 			i++
-// 		}
-// 		else i++
-// 	}
-// 	var correctedFile=insert(file,i+1,string);
-// 	console.log(correctedFile);
+		    
+	},this);
+}
+
+var toProcessMrkp = function(fn) {
+	var out=[];
+	var filename=fn.split(/[\/.]/)[3].substr(1);
+	var mrkpByBampo=JSON.parse(fs.readFileSync(fn,"utf8"));
+	kde.open("jiangkangyur",function(a,db){
+	        db.get(["filenames"],function(filenames){
+				var f=filenames.map(function(item,i){
+					if( item.match(filename) ) return 1;
+					else return 0;
+				})
+				var fileid=f.indexOf(1);
+				for(var i=0; i<mrkpByBampo.length; i++){
+					var mrkpedText=processMrkp(mrkpByBampo[i],fileid,mrkpByBampo[i][0][3],filename,out);
+					//out.push(mrkpedText);
+				}
+	        });
+	},this); 
+}
+
+// var checkContent = function() {
+// 	kde.open("jiangkangyur",function(a,db){
+// 		    kse.highlightSeg(db,1823,1,{token:false},function(data){//kde
+// 		    	console.log(data.text);
+// 		    });
+// 	},this);
 // }
-kde.open("jiangkangyur",function(a,db){
-        this.setState({db:db});
-        db.get(["filenames"],function(filenames){
-        console.log(filenames);
-    },this);    
+//checkContent();
+// glob("./markup/d*",function(err,files){
+// 	files.map(toProcessMrkp);
+// });
 
-    // kse.highlightFile(this.state.db,f,{q:this.state.tofind || tofind,token:true},function(data){//kde
-    //   that.setState({bodytext:data,page:p});
-    // });
-
-//addMarkup(9,"(更正)");
-//console.log("中華民果萬歲".insert(4,"(國)"));
-
-
+toProcessMrkp("./markup/d0302_001.json");
