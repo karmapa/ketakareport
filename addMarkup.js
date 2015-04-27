@@ -13,10 +13,11 @@ var processMrkp = function(mrkpsByPage,fileid,pageid,fn,out) {//mrkpsByPage,file
 		    	// console.log(mrkpsByPage.length);
 		    	for(var i=0; i<mrkpsByPage.length; i++){
 		    		var start=mrkpsByPage[i][1],len=mrkpsByPage[i][2],string=mrkpsByPage[i][4];
-		    		correctedText=correctedText.substr(0,start)+"<span class='delete'>"+correctedText.substr(start,len)+'</span>'+"<span class='add'>  "+string+'  </span>'+correctedText.substr(start+len);
+		    		correctedText=correctedText.substr(0,start)+"<span class='add'>  "+string+'  </span>'+correctedText.substr(start+len);
+		    		//correctedText=correctedText.substr(0,start)+"<span class='delete'>"+correctedText.substr(start,len)+'</span>'+"<span class='add'>  "+string+'  </span>'+correctedText.substr(start+len);
 		    	}
 		    	out.push([pagename,correctedText]);
-		    	fs.writeFileSync("./markup/bampo"+fn+".json",JSON.stringify(out,""," "),"utf8");
+		    	fs.writeFileSync("./dump/bampo"+fn+".json",JSON.stringify(out,""," "),"utf8");
 		    	//console.log("------"+pagename+"-------\n\n"+correctedText+"\n\n");//fn,"------"+pagename+"-------\n\n"+correctedText+"\n\n"
 		    });
 
@@ -28,7 +29,8 @@ var toProcessMrkp = function(fn) {
 	var out=[];
 	var filename=fn.split(/[\/.]/)[3].substr(1);
 	var mrkpByBampo=JSON.parse(fs.readFileSync(fn,"utf8"));
-	kde.open("jiangkangyur",function(a,db){
+	kde.open("jiangkangyur",function(err,db){
+
 	        db.get(["filenames"],function(filenames){
 				var f=filenames.map(function(item,i){
 					if( item.match(filename) ) return 1;
@@ -43,16 +45,16 @@ var toProcessMrkp = function(fn) {
 	},this); 
 }
 
-// var checkContent = function() {
-// 	kde.open("jiangkangyur",function(a,db){
-// 		    kse.highlightSeg(db,1823,1,{token:false},function(data){//kde
-// 		    	console.log(data.text);
-// 		    });
-// 	},this);
-// }
-//checkContent();
-// glob("./markup/d*",function(err,files){
-// 	files.map(toProcessMrkp);
-// });
+var checkContent = function() {
+	kde.open("jiangkangyur",function(a,db){
+		    kse.highlightSeg(db,1823,1,{token:false},function(data){//kde
+		    	console.log(data.text);
+		    });
+	},this);
+}
+checkContent();
+glob("./dump/d*",function(err,files){
+	files.map(toProcessMrkp);
+});
 
-toProcessMrkp("./markup/d0302_001.json");
+//toProcessMrkp("./dump/d0307_001.json");
