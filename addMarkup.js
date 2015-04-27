@@ -13,8 +13,8 @@ var processMrkp = function(mrkpsByPage,fileid,pageid,fn,out) {//mrkpsByPage,file
 		    	// console.log(mrkpsByPage.length);
 		    	for(var i=0; i<mrkpsByPage.length; i++){
 		    		var start=mrkpsByPage[i][1],len=mrkpsByPage[i][2],string=mrkpsByPage[i][4];
-		    		correctedText=correctedText.substr(0,start)+"<span class='add'>  "+string+'  </span>'+correctedText.substr(start+len);
-		    		//correctedText=correctedText.substr(0,start)+"<span class='delete'>"+correctedText.substr(start,len)+'</span>'+"<span class='add'>  "+string+'  </span>'+correctedText.substr(start+len);
+		    		correctedText=correctedText.substr(0,start)+"<span class='delete'>"+correctedText.substr(start,len)+'</span>'+"<span class='add'>"+string+'</span>'+correctedText.substr(start+len);
+		    		//orrectedText=correctedText.substr(0,start)+string+correctedText.substr(start+len);
 		    	}
 		    	out.push([pagename,correctedText]);
 		    	fs.writeFileSync("./dump/bampo"+fn+".json",JSON.stringify(out,""," "),"utf8");
