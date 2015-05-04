@@ -44,7 +44,7 @@ function checkBound(filename){
 }
 
 
-glob("./NewReport/*.json",function(err,files){
+glob("./dump/*.json",function(err,files){
     files.map(checkBound);    
     dataGroup=unique(dataGroup);
 

@@ -52,7 +52,7 @@ var checkContent = function() {
 		    });
 	},this);
 }
-checkContent();
+
 glob("./dump/d*",function(err,files){
 	files.map(toProcessMrkp);
 });

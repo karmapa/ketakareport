@@ -87,15 +87,13 @@ var getPerformance = function(fn){
 		allMrkp: mrkpQtyOfEachPr,
 		approvedMrkp: approvedMrkpQtyOfEachPr
 	};
-
+	console.log(result);
 }
 
 // glob("./DB/*.json",function(err,files){
-// 	//console.time("timerName");
 // 	files.map(getPerformance);
 // 	console.log(result);
-// 	//console.timeEnd("timerName");
 // 	//fs.writeFileSync("performance.json",JSON.stringify(result,"","  "),"utf8");
 // })
 
-getPerformance("./DB/0303-001.json");//./DB/0304-001.json
+getPerformance("./DB/0304-001.json");//./DB/0304-001.json
