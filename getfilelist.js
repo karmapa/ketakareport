@@ -10,7 +10,7 @@ var getFileList = function(item){
 		filelist["vol"+vol].push(filename);
 	} else {
 		vol = currentVol;
-		filelist["vol"+vol] = [];
+		filelist["vol"+vol] = ["select"];
 		filelist["vol"+vol].push(filename);
 	}
 }
@@ -18,5 +18,6 @@ var getFileList = function(item){
 glob("../jiangkangyur/*/lj*.xml",function(err,files){
 	files.map(getFileList);
 	console.log(filelist);
-	fs.writeFileSync("filelist.js",JSON.stringify(filelist,""," "),"utf8");
+	var out = "var filelist = \n" + JSON.stringify(filelist,""," ") + "\nmodule.exports = filelist;";
+	fs.writeFileSync("filelist.js", out, "utf8");
 });

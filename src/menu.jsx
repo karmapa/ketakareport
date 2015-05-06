@@ -10,7 +10,7 @@ var Menu = React.createClass({
     this.setState({vol:e.target.value});
   },
   getTextByBampo: function(e){
-    this.props.getText(e.target.value);
+    this.props.getText(this.state.vol, e.target.value);
   },
   render: function() {
     return <div>

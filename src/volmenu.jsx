@@ -9,15 +9,9 @@ var Volmenu = React.createClass({
   },
   renderVol: function(key){
   	var num = key.replace(/[a-z]/g,"");
-  	if(key === "vol081"){
-	  	return(
-			<option value={key} selected={true}>{num}</option>
-	  	)  		
-	} else {
-	  	return(
-			<option value={key}>{num}</option>
-	  	)  
-	} 
+  	return(
+		<option value={key}>{num}</option>
+  	)  
 
   },
   render: function() {
