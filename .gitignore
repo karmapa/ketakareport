@@ -4,3 +4,4 @@ dump/
 DB/
 markup/
 *.kdb
+src/*/

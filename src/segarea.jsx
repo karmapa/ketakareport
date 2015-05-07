@@ -5,7 +5,10 @@ var Segarea = React.createClass({
     return {};
   },
   renderText: function(text) {
-    return text.replace(/<.*?>/g,"");
+    return text.replace(/<span class='(delete|add)'>(.*?)<\/span>/g, function(r,classType,content){
+      if(classType === "delete") return "";
+      if(classType === "add") return content;
+    });
   },
   render: function() {
     if(!this.props.reveal) var text = this.renderText(this.props.text);
