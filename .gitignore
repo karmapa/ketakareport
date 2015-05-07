@@ -1,7 +1,7 @@
 *.txt
 Database backup from IND/
-dump/
+dump/vol*/
 DB/
 markup/
 *.kdb
-src/*/
+src/0*/
