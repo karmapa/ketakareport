@@ -64,6 +64,20 @@ var getChart = function(bampo){
         .attr("x", function(d, i) { return x0(i); })
         .attr("y", function(d) { return y(d); })
 
+  bar.selectAll('text')
+   .data(function(d) { return d; })
+   .enter() //補上資料數值  
+   .append('text')   
+   .text(function(d){ return (Math.round(d*100)+'%');}) //將值寫到SVG上  
+   .attr({  
+    'x': function(d, i){return x0(i)+x1.rangeBand()/2},  
+    //和上面相同，算出X、Y的位置  
+    'y': function(d){return y(d)}, //數值放在bar 內  
+    'fill': 'black', //文字填滿為白色  
+    'text-anchor': 'middle', //文字置中  
+    'font-size': '12px' //Fill、font-size也可以用CSS寫喔～  
+  });  
+
   var legend = svg.selectAll(".legend")
       .data(["recall","precision"])
     .enter().append("g")
@@ -77,7 +91,7 @@ var getChart = function(bampo){
       .style("fill", function(d,i){return z(i)});
 
   legend.append("text")
-      .attr("x", width - 24)
+      .attr("x", width -24)
       .attr("y", 9)
       .attr("dy", ".35em")
       .style("text-anchor", "end")//讓字乖乖排在色塊旁

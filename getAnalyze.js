@@ -1,5 +1,5 @@
 var fs = require('fs');
-var performance = JSON.parse(fs.readFileSync("performance.json","utf8"));
+var performance = JSON.parse(fs.readFileSync("performance82.json","utf8"));
 var out = {}; //0: precision 1:recall
 
 for(var i in performance){
@@ -14,4 +14,4 @@ for(var i in performance){
 	}	
 }
 console.log(out);
-fs.writeFileSync("analyze.js","var analyze=" + JSON.stringify(out,""," "),"utf8");
+fs.writeFileSync("analyze82.js","var analyze=" + JSON.stringify(out,""," "),"utf8");

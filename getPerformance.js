@@ -74,7 +74,7 @@ var getPerformance = function(fn){
 			qtyOfMrkpFromCpr++;
 		}
 		if(file.rows[i].doc.payload.type == "suggest") mrkpFromPr.push(getMrkp(file.rows[i]));
-		if(file.rows[i].doc.payload.type == "suggest" && file.rows[i].doc.payload.author == "T.Gawa") qtyOfMrkpFromCpr++;
+		if(file.rows[i].doc.payload.type == "suggest" && file.rows[i].doc.payload.author == "gelek") qtyOfMrkpFromCpr++;
 	}
 	mrkpFromPr.sort(function(a,b){return a[0] - b[0]});
 	approvedMrkp.sort(function(a,b){return a[0] - b[0]});
@@ -90,10 +90,9 @@ var getPerformance = function(fn){
 	console.log(result);
 }
 
-// glob("./DB/*.json",function(err,files){
-// 	files.map(getPerformance);
-// 	console.log(result);
-// 	//fs.writeFileSync("performance.json",JSON.stringify(result,"","  "),"utf8");
-// })
+glob("./DB/vol 82/*.json",function(err,files){
+	files.map(getPerformance);
+	fs.writeFileSync("performance82.json",JSON.stringify(result,"","  "),"utf8");
+})
 
-getPerformance("./DB/0304-001.json");//./DB/0304-001.json
+//getPerformance("./DB/0302-001.json");//./DB/0304-001.json
