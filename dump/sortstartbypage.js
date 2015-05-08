@@ -25,10 +25,10 @@ var sortStartByPage = function(arr, filename){
 	}
 
 	for(var j=0; j<out.length; j++){
-		out[j].sort(function(a,b) {return a[1]-b[1]} );
+		out[j].sort(function(a,b) {return b[1]-a[1]} );
 	}
-	console.log(out);
-	//addMarkup(out, filename);
+	//console.log(out);
+	addMarkup(out, filename);
 }
 
 module.exports = sortStartByPage;

@@ -1,0 +1,9 @@
+執行node getketakaresult.js 會得到 bampoxxxx_xxx.js
+
+
+程式內部執行順序：
+getketakaresult.js -> SearchChiefREdit.js  //將markup抽出來 
+                   -> sortstartbypage.js   //將markup以頁碼分的二維陣列，其中start由大到小排列
+                   -> addMarkup.js         //將markup加入文本
+                   -> json2js.js           //將json轉成js
+                   -> bampoxxxx_xxx.js   //結果
