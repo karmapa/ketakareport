@@ -32,7 +32,7 @@ var processMrkp = function(mrkpsByPage,fileid,pageid,fn,out) {//mrkpsByPage,file
 		    	out.push([pagename,correctedText]);
 		    	//fs.writeFileSync("./dump/bampo"+fn+".json",JSON.stringify(out,""," "),"utf8");
 		    	//fs.writeFileSync("./added.json",JSON.stringify(sortSeg(out),""," "),"utf8");
-		    	json2js(out,fn);
+		    	json2js(sortSeg(out),fn);
 
 		    });
 			

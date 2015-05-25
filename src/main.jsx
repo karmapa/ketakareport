@@ -1,25 +1,21 @@
 var React=require("react");
 var Menu=require("./menu.jsx");
-var Textarea=require("./textarea.jsx");
+var Chartarea=require("./chartarea.jsx");
 var kse=require("ksana-search");
 var maincomponent = React.createClass({
   getInitialState:function() {
-    return {bampo:""};
+    return {bampo:"",vol:""};
   },
-  // componentDidMount: function() {
-  //   //setTimeout(function(){
-  //     this.getText("vol081", "lj0317_001");
-  //   //},500);
-    
-  // },
   getText: function(vol,bampo){
     console.log(vol, bampo);
-    this.setState({vol:vol, bampo:bampo});
+    var b = bampo.replace("_","-");
+    this.setState({vol:vol, bampo:b});
   },
   render: function() {
+    //<Textarea vol={this.state.vol} bampo={this.state.bampo}/>
     return <div>
       <Menu getText={this.getText}/>
-      <Textarea vol={this.state.vol} bampo={this.state.bampo}/>
+      <Chartarea vol={this.state.vol} bampo={this.state.bampo}/>
     </div>;
   }
 });

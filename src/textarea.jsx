@@ -22,7 +22,6 @@ var Textarea = React.createClass({
   render: function() {
   	var bampo = this.props.bampo;
   	if(bampo) var segs = bampos[bampo.replace("lj","bampo")].map(this.renderSeg);
-  	//console.log();
     return <div>
     <button ref="revealBtn" onClick={this.revearMrkp}>reveal</button>
     {segs}

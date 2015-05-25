@@ -4,13 +4,14 @@ var Bampomenu=require("./bampomenu.jsx");
 
 var Menu = React.createClass({
   getInitialState:function() {
-    return {vol:"vol081"};
+    return {vol:"vol070"};
   },
   getBampoByVol: function(e){
+    d3.select("svg").remove();
     this.setState({vol:e.target.value});
   },
-  getTextByBampo: function(e){
-    this.props.getText(this.state.vol, e.target.value);
+  getTextByBampo: function(bampo){
+    this.props.getText(this.state.vol, bampo);
   },
   render: function() {
     return <div>

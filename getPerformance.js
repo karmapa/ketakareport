@@ -1,5 +1,11 @@
 var fs=require("fs");
 var glob=require("glob");
+/*
+1. change the name of chief (line 8)
+2. change the output file name to the vol processed (line 120)
+*/
+
+var CHIEF = "K gyaltsen";
 
 var getMrkp = function(item){
 		return ([item.doc.start,
@@ -59,7 +65,24 @@ var getApprovedMrkpQtyOfEachPr = function(mrkpArr, approvedMrkpArr){
 	return out;
 }
 
+var getRate = function(performance){//0: precision 1:recall
+	var out={};
+	for(var i in performance){
+		out[i] = {pr:[],
+			      rate:[ [],[] ]};
+		for(var j in performance[i].approvedMrkp){
+			out[i].pr.push(j);
+			var precision = (performance[i].approvedMrkp[j] / performance[i].allMrkp[j]).toFixed(3);
+			var recall = (performance[i].approvedMrkp[j] / performance[i].chief).toFixed(3);
+			out[i].rate[0].push(precision);
+			out[i].rate[1].push(recall);
+		}	
+	}
+	return out;
+}
+
 var result={};
+
 var getPerformance = function(fn){
 	var file = JSON.parse(fs.readFileSync(fn,"utf8"));
 	var bampo = "lj" + fn.match(/\d+-\d+/)[0];
@@ -74,7 +97,7 @@ var getPerformance = function(fn){
 			qtyOfMrkpFromCpr++;
 		}
 		if(file.rows[i].doc.payload.type == "suggest") mrkpFromPr.push(getMrkp(file.rows[i]));
-		if(file.rows[i].doc.payload.type == "suggest" && file.rows[i].doc.payload.author == "gelek") qtyOfMrkpFromCpr++;
+		if(file.rows[i].doc.payload.type == "suggest" && file.rows[i].doc.payload.author == CHIEF) qtyOfMrkpFromCpr++;
 	}
 	mrkpFromPr.sort(function(a,b){return a[0] - b[0]});
 	approvedMrkp.sort(function(a,b){return a[0] - b[0]});
@@ -87,12 +110,13 @@ var getPerformance = function(fn){
 		allMrkp: mrkpQtyOfEachPr,
 		approvedMrkp: approvedMrkpQtyOfEachPr
 	};
-	console.log(result);
+	//console.log(approvedMrkp);
 }
 
-glob("./DB/vol 82/*.json",function(err,files){
+glob("./080/*.json",function(err,files){
 	files.map(getPerformance);
-	fs.writeFileSync("performance82.json",JSON.stringify(result,"","  "),"utf8");
+	var out = getRate(result);//0: precision 1:recall
+	fs.writeFileSync("vol080.js","var vol080 = "+JSON.stringify(out,"","  ")+"module.exports=vol080;","utf8");	
 })
 
-//getPerformance("./DB/0302-001.json");//./DB/0304-001.json
+//getPerformance("./DB/vol078/0302-001.json");//./DB/0304-001.json

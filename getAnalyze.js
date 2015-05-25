@@ -1,5 +1,5 @@
 var fs = require('fs');
-var performance = JSON.parse(fs.readFileSync("performance82.json","utf8"));
+var performance = JSON.parse(fs.readFileSync("fakedata.json","utf8"));
 var out = {}; //0: precision 1:recall
 
 for(var i in performance){
@@ -7,11 +7,15 @@ for(var i in performance){
 		      rate:[ [],[] ]};
 	for(var j in performance[i].approvedMrkp){
 		out[i].pr.push(j);
+		
 		var precision = (performance[i].approvedMrkp[j] / performance[i].allMrkp[j]).toFixed(3);
 		var recall = (performance[i].approvedMrkp[j] / performance[i].chief).toFixed(3);
 		out[i].rate[0].push(precision);
 		out[i].rate[1].push(recall);
+
+
 	}	
+	
 }
-console.log(out);
-fs.writeFileSync("analyze82.js","var analyze=" + JSON.stringify(out,""," "),"utf8");
+console.log(out["fakeData"].rate);
+//fs.writeFileSync("analyze82.js","var analyze=" + JSON.stringify(out,""," "),"utf8");

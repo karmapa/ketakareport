@@ -4,5 +4,4 @@ dump/vol*/
 DB/
 markup/
 *.kdb
-src/0*/
 performance/report/
