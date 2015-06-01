@@ -2,7 +2,7 @@ var React=require("react");
 var filelist=require("./filelist.js");
 var Bampomenu = React.createClass({
   getInitialState:function() {
-    return {};
+    return {selected:"select"};
   },
   doGetTextByBampo: function(e){
     var bampo = e.target.value;
