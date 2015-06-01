@@ -1,8 +1,7 @@
 var glob=require("glob");
 var fs=require("fs");
 var unique=require("./unique");
-var sortStartByPage=require("./sortstartbypage.js");
-
+//var sortStartByPage=require("./sortstartbypage.js");
 
 var CHIEF = "T.Gawa";
 
@@ -29,13 +28,15 @@ function checkBound(filename){
 		}
 	});  
 	dataGroup=unique(dataGroup);  
-	//fs.writeFileSync("Result_SerchChiefWords.json",JSON.stringify(dataGroup,""," "),"utf8");  
+	fs.writeFileSync("mrkp0303-001.json",JSON.stringify(dataGroup,""," "),"utf8");  
 
-	sortStartByPage(dataGroup, filename);
+	//sortStartByPage(dataGroup, filename);
 
 }
+checkBound("./vol078/0303-001.json");
 
-module.exports = checkBound;
+//module.exports = checkBound;
+
 // glob("./*.json",function(err,files){
 //     files.map(checkBound);    
 // });

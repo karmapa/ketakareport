@@ -1,0 +1,451 @@
+{
+  "lj0321-001": {
+    "chief": 66,
+    "allMrkp": {
+      "Benchen Dakpa": 17,
+      "gelek": 10,
+      "lakdor": 26,
+      "dechendorji": 23,
+      "ngodup": 5
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 13,
+      "dechendorji": 15,
+      "lakdor": 19,
+      "ngodup": 2
+    }
+  },
+  "lj0322-001": {
+    "chief": 67,
+    "allMrkp": {
+      "dechendorji": 15,
+      "Benchen Dakpa": 34,
+      "lakdor": 25,
+      "ngodup": 4,
+      "Samdup": 5,
+      "gelek": 1
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 13,
+      "lakdor": 11,
+      "ngodup": 4,
+      "dechendorji": 5,
+      "Samdup": 2
+    }
+  },
+  "lj0322-002": {
+    "chief": 166,
+    "allMrkp": {
+      "gelek": 3,
+      "lakdor": 61,
+      "Benchen Dakpa": 75,
+      "Samdup": 29,
+      "dechendorji": 34,
+      "ngodup": 18
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 57,
+      "dechendorji": 24,
+      "Samdup": 25,
+      "lakdor": 29,
+      "ngodup": 12
+    }
+  },
+  "lj0323-001": {
+    "chief": 71,
+    "allMrkp": {
+      "Benchen Dakpa": 30,
+      "lakdor": 35,
+      "dechendorji": 9,
+      "gelek": 3,
+      "ngodup": 9
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 27,
+      "lakdor": 22,
+      "dechendorji": 9,
+      "ngodup": 9
+    }
+  },
+  "lj0323-002": {
+    "chief": 47,
+    "allMrkp": {
+      "dechendorji": 11,
+      "lakdor": 18,
+      "Benchen Dakpa": 26,
+      "ngodup": 3
+    },
+    "approvedMrkp": {
+      "dechendorji": 9,
+      "lakdor": 14,
+      "Benchen Dakpa": 23,
+      "ngodup": 3
+    }
+  },
+  "lj0323-003": {
+    "chief": 119,
+    "allMrkp": {
+      "Benchen Dakpa": 47,
+      "lakdor": 58,
+      "dechendorji": 11,
+      "gelek": 3,
+      "ngodup": 14
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 38,
+      "lakdor": 20,
+      "dechendorji": 9,
+      "ngodup": 11
+    }
+  },
+  "lj0324-001": {
+    "chief": 109,
+    "allMrkp": {
+      "Benchen Dakpa": 57,
+      "ngodup": 24,
+      "lakdor": 64,
+      "dechendorji": 21,
+      "gelek": 4
+    },
+    "approvedMrkp": {
+      "ngodup": 23,
+      "lakdor": 49,
+      "Benchen Dakpa": 40,
+      "dechendorji": 15
+    }
+  },
+  "lj0324-002": {
+    "chief": 99,
+    "allMrkp": {
+      "lakdor": 41,
+      "dechendorji": 25,
+      "Benchen Dakpa": 50,
+      "ngodup": 7
+    },
+    "approvedMrkp": {
+      "lakdor": 27,
+      "Benchen Dakpa": 45,
+      "dechendorji": 18,
+      "ngodup": 6
+    }
+  },
+  "lj0324-003": {
+    "chief": 87,
+    "allMrkp": {
+      "lakdor": 35,
+      "Benchen Dakpa": 50,
+      "gelek": 3,
+      "dechendorji": 23,
+      "ngodup": 3
+    },
+    "approvedMrkp": {
+      "lakdor": 19,
+      "Benchen Dakpa": 43,
+      "dechendorji": 22,
+      "ngodup": 2
+    }
+  },
+  "lj0324-004": {
+    "chief": 53,
+    "allMrkp": {
+      "gelek": 9,
+      "ngodup": 9,
+      "lakdor": 15,
+      "Benchen Dakpa": 19,
+      "dechendorji": 12
+    },
+    "approvedMrkp": {
+      "lakdor": 7,
+      "ngodup": 5,
+      "Benchen Dakpa": 16,
+      "dechendorji": 7
+    }
+  },
+  "lj0325-001": {
+    "chief": 94,
+    "allMrkp": {
+      "lakdor": 26,
+      "ngodup": 6,
+      "dechendorji": 8,
+      "Benchen Dakpa": 48,
+      "gelek": 20
+    },
+    "approvedMrkp": {
+      "ngodup": 5,
+      "lakdor": 21,
+      "dechendorji": 3,
+      "Benchen Dakpa": 12
+    }
+  },
+  "lj0325-002": {
+    "chief": 63,
+    "allMrkp": {
+      "lakdor": 17,
+      "gelek": 15,
+      "Benchen Dakpa": 31,
+      "ngodup": 3,
+      "dechendorji": 1
+    },
+    "approvedMrkp": {
+      "lakdor": 6,
+      "Benchen Dakpa": 26,
+      "ngodup": 1,
+      "dechendorji": 1
+    }
+  },
+  "lj0326-001": {
+    "chief": 108,
+    "allMrkp": {
+      "Benchen Dakpa": 46,
+      "dechendorji": 37,
+      "lakdor": 42,
+      "ngodup": 17,
+      "gelek": 7
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 44,
+      "dechendorji": 22,
+      "lakdor": 33,
+      "ngodup": 13
+    }
+  },
+  "lj0326-002": {
+    "chief": 135,
+    "allMrkp": {
+      "Benchen Dakpa": 58,
+      "lakdor": 69,
+      "dechendorji": 26,
+      "ngodup": 11,
+      "gelek": 4
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 49,
+      "lakdor": 33,
+      "dechendorji": 24,
+      "ngodup": 8
+    }
+  },
+  "lj0327-001": {
+    "chief": 131,
+    "allMrkp": {
+      "lakdor": 79,
+      "Benchen Dakpa": 47,
+      "dechendorji": 23,
+      "gelek": 3,
+      "ngodup": 13
+    },
+    "approvedMrkp": {
+      "lakdor": 71,
+      "Benchen Dakpa": 37,
+      "dechendorji": 18,
+      "ngodup": 13
+    }
+  },
+  "lj0327-002": {
+    "chief": 148,
+    "allMrkp": {
+      "Benchen Dakpa": 43,
+      "lakdor": 44,
+      "gelek": 74,
+      "dechendorji": 13,
+      "ngodup": 10
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 40,
+      "lakdor": 39,
+      "dechendorji": 9,
+      "ngodup": 10
+    }
+  },
+  "lj0328-001": {
+    "chief": 283,
+    "allMrkp": {
+      "Benchen Dakpa": 166,
+      "dechendorji": 29,
+      "lakdor": 49,
+      "gelek": 76,
+      "ngodup": 28
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 149,
+      "dechendorji": 18,
+      "lakdor": 27,
+      "ngodup": 25
+    }
+  },
+  "lj0329-001": {
+    "chief": 126,
+    "allMrkp": {
+      "lakdor": 42,
+      "Benchen Dakpa": 60,
+      "ngodup": 24,
+      "dechendorji": 22,
+      "gelek": 31
+    },
+    "approvedMrkp": {
+      "lakdor": 21,
+      "Benchen Dakpa": 51,
+      "ngodup": 22,
+      "dechendorji": 19
+    }
+  },
+  "lj0330-001": {
+    "chief": 214,
+    "allMrkp": {
+      "lakdor": 61,
+      "gelek": 77,
+      "Benchen Dakpa": 77,
+      "dechendorji": 34,
+      "ngodup": 16
+    },
+    "approvedMrkp": {
+      "lakdor": 33,
+      "Benchen Dakpa": 60,
+      "dechendorji": 25,
+      "ngodup": 15
+    }
+  },
+  "lj0331-001": {
+    "chief": 62,
+    "allMrkp": {
+      "lakdor": 28,
+      "Benchen Dakpa": 22,
+      "dechendorji": 21,
+      "gelek": 9,
+      "ngodup": 4
+    },
+    "approvedMrkp": {
+      "lakdor": 13,
+      "Benchen Dakpa": 16,
+      "dechendorji": 14,
+      "ngodup": 3
+    }
+  },
+  "lj0332-001": {
+    "chief": 37,
+    "allMrkp": {
+      "lakdor": 21,
+      "Benchen Dakpa": 12,
+      "dechendorji": 14,
+      "ngodup": 4,
+      "gelek": 4
+    },
+    "approvedMrkp": {
+      "lakdor": 20,
+      "Benchen Dakpa": 10,
+      "dechendorji": 11,
+      "ngodup": 4
+    }
+  },
+  "lj0333-001": {
+    "chief": 149,
+    "allMrkp": {
+      "lakdor": 81,
+      "dechendorji": 30,
+      "Benchen Dakpa": 21,
+      "gelek": 48,
+      "ngodup": 11
+    },
+    "approvedMrkp": {
+      "lakdor": 57,
+      "dechendorji": 27,
+      "Benchen Dakpa": 18,
+      "ngodup": 9
+    }
+  },
+  "lj0334-001": {
+    "chief": 105,
+    "allMrkp": {
+      "Benchen Dakpa": 36,
+      "gelek": 27,
+      "lakdor": 46,
+      "dechendorji": 24,
+      "ngodup": 8
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 34,
+      "lakdor": 32,
+      "dechendorji": 15,
+      "ngodup": 7
+    }
+  },
+  "lj0334-002": {
+    "chief": 99,
+    "allMrkp": {
+      "Benchen Dakpa": 35,
+      "ngodup": 2,
+      "lakdor": 23,
+      "dechendorji": 19,
+      "gelek": 33
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 31,
+      "dechendorji": 15,
+      "lakdor": 18
+    }
+  },
+  "lj0335-001": {
+    "chief": 51,
+    "allMrkp": {
+      "Benchen Dakpa": 27,
+      "dechendorji": 10,
+      "lakdor": 21,
+      "ngodup": 6,
+      "gelek": 6
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 22,
+      "dechendorji": 7,
+      "lakdor": 15,
+      "ngodup": 4
+    }
+  },
+  "lj0336-001": {
+    "chief": 101,
+    "allMrkp": {
+      "lakdor": 41,
+      "Benchen Dakpa": 52,
+      "dechendorji": 21,
+      "gelek": 12,
+      "ngodup": 11
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 48,
+      "lakdor": 33,
+      "dechendorji": 19,
+      "ngodup": 8
+    }
+  },
+  "lj0336-002": {
+    "chief": 89,
+    "allMrkp": {
+      "gelek": 24,
+      "lakdor": 37,
+      "Benchen Dakpa": 29,
+      "dechendorji": 34,
+      "ngodup": 9
+    },
+    "approvedMrkp": {
+      "lakdor": 32,
+      "Benchen Dakpa": 26,
+      "dechendorji": 21,
+      "ngodup": 7
+    }
+  },
+  "lj0337-001": {
+    "chief": 228,
+    "allMrkp": {
+      "dechendorji": 38,
+      "lakdor": 88,
+      "Benchen Dakpa": 50,
+      "ngodup": 20,
+      "gelek": 96
+    },
+    "approvedMrkp": {
+      "dechendorji": 30,
+      "lakdor": 62,
+      "Benchen Dakpa": 44,
+      "ngodup": 17
+    }
+  }
+}

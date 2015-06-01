@@ -6,6 +6,7 @@ var glob=require("glob");
 */
 
 var CHIEF = "K gyaltsen";
+var VOLUME = "080";
 
 var getMrkp = function(item){
 		return ([item.doc.start,
@@ -113,10 +114,10 @@ var getPerformance = function(fn){
 	//console.log(approvedMrkp);
 }
 
-glob("./080/*.json",function(err,files){
+glob("./"+VOLUME+"/*.json",function(err,files){
 	files.map(getPerformance);
 	var out = getRate(result);//0: precision 1:recall
-	fs.writeFileSync("vol080.js","var vol080 = "+JSON.stringify(out,"","  ")+"module.exports=vol080;","utf8");	
+	fs.writeFileSync("vol"+VOLUME+".js","var vol"+VOLUME+" = "+JSON.stringify(out,"","  ")+"module.exports=vol"+VOLUME+";","utf8");	
 })
 
 //getPerformance("./DB/vol078/0302-001.json");//./DB/0304-001.json

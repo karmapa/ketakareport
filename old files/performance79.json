@@ -1,0 +1,176 @@
+{
+  "lj0307-001": {
+    "chief": 1921,
+    "allMrkp": {
+      "dechendorji": 335,
+      "Palden Lama": 356,
+      "admin": 5,
+      "T.Gawa": 43,
+      "passang": 317,
+      "karma3": 2,
+      "ngodup": 409,
+      "Benchen Dakpa": 916,
+      "Samdup": 629,
+      "phuntsok": 571,
+      "namgyal": 3
+    },
+    "approvedMrkp": {
+      "dechendorji": 401,
+      "admin": 4,
+      "T.Gawa": 43,
+      "passang": 301,
+      "karma3": 2,
+      "Samdup": 536,
+      "phuntsok": 522,
+      "Benchen Dakpa": 622,
+      "ngodup": 392,
+      "Palden Lama": 19,
+      "namgyal": 2
+    }
+  },
+  "lj0308-001": {
+    "chief": 2019,
+    "allMrkp": {
+      "Palden Lama": 323,
+      "Samdup": 775,
+      "Benchen Dakpa": 1039,
+      "passang": 253,
+      "phuntsok": 270,
+      "ngodup": 203,
+      "T.Gawa": 56,
+      "dechendorji": 41,
+      "karma3": 1,
+      "Khenpo Namgyal": 7
+    },
+    "approvedMrkp": {
+      "Samdup": 753,
+      "Benchen Dakpa": 997,
+      "passang": 255,
+      "phuntsok": 258,
+      "T.Gawa": 52,
+      "ngodup": 59,
+      "dechendorji": 55,
+      "karma3": 1
+    }
+  },
+  "lj0309-001": {
+    "chief": 692,
+    "allMrkp": {
+      "Palden Lama": 86,
+      "Samdup": 334,
+      "Benchen Dakpa": 489,
+      "phuntsok": 216,
+      "ngodup": 184
+    },
+    "approvedMrkp": {
+      "Samdup": 298,
+      "Benchen Dakpa": 477,
+      "phuntsok": 188,
+      "ngodup": 18
+    }
+  },
+  "lj0310-001": {
+    "chief": 437,
+    "allMrkp": {
+      "Palden Lama": 169,
+      "Benchen Dakpa": 214,
+      "phuntsok": 54,
+      "ngodup": 46,
+      "dechendorji": 70
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 159,
+      "phuntsok": 42,
+      "ngodup": 37,
+      "dechendorji": 55
+    }
+  },
+  "lj0311-001": {
+    "chief": 206,
+    "allMrkp": {
+      "dechendorji": 13,
+      "ngodup": 12,
+      "Palden Lama": 81,
+      "karma phuntsok": 61,
+      "Benchen Dakpa": 89,
+      "phuntsok": 13
+    },
+    "approvedMrkp": {
+      "dechendorji": 7,
+      "karma phuntsok": 25,
+      "Benchen Dakpa": 51,
+      "phuntsok": 9,
+      "ngodup": 9
+    }
+  },
+  "lj0312-001": {
+    "chief": 1466,
+    "allMrkp": {
+      "Palden Lama": 521,
+      "phuntsok": 314,
+      "Benchen Dakpa": 593,
+      "karma phuntsok": 92,
+      "dechendorji": 334,
+      "ngodup": 170
+    },
+    "approvedMrkp": {
+      "phuntsok": 281,
+      "Benchen Dakpa": 426,
+      "dechendorji": 279,
+      "ngodup": 130,
+      "karma phuntsok": 60
+    }
+  },
+  "lj0313-001": {
+    "chief": 279,
+    "allMrkp": {
+      "Palden Lama": 73,
+      "Benchen Dakpa": 85,
+      "tnam": 73,
+      "lakdor": 91,
+      "dechendorji": 63,
+      "phuntsok": 18,
+      "ngodup": 14
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 62,
+      "tnam": 55,
+      "lakdor": 59,
+      "dechendorji": 57,
+      "phuntsok": 12,
+      "ngodup": 10
+    }
+  },
+  "lj0313-002": {
+    "chief": 239,
+    "allMrkp": {
+      "lakdor": 87,
+      "Benchen Dakpa": 70,
+      "dechendorji": 9,
+      "ngodup": 16,
+      "Palden Lama": 94
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 57,
+      "dechendorji": 3,
+      "lakdor": 46,
+      "ngodup": 12
+    }
+  },
+  "lj0313-003": {
+    "chief": 360,
+    "allMrkp": {
+      "Benchen Dakpa": 71,
+      "dechendorji": 41,
+      "Palden Lama": 225,
+      "lakdor": 56,
+      "ngodup": 26
+    },
+    "approvedMrkp": {
+      "Benchen Dakpa": 43,
+      "dechendorji": 22,
+      "lakdor": 38,
+      "ngodup": 22
+    }
+  }
+}

@@ -2,7 +2,7 @@ var margin = {top: 20, right: 30, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var getChart = function(bampo){
+var getChart = function(bampo, vol){
   d3.select("svg").remove();
 
   var y = d3.scale.linear()
@@ -14,11 +14,11 @@ var getChart = function(bampo){
       .range([0,height]);
 
   var xName = d3.scale.ordinal()
-      .domain(analyze[bampo].pr.map(function(d) {return d}))
+      .domain(vol[bampo].pr.map(function(d) {return d}))
       .rangeBands([0, width], .2);
 
   var x0 = d3.scale.ordinal()
-      .domain(d3.range(analyze[bampo].pr.length))
+      .domain(d3.range(vol[bampo].pr.length))
       .rangeBands([0, width], .2);
 
   var x1 = d3.scale.ordinal()
@@ -51,7 +51,7 @@ var getChart = function(bampo){
       .call(xAxis);
 
   var bar=svg.append("g").selectAll("g")
-            .data(analyze[bampo].rate)
+            .data(vol[bampo].rate)
           .enter().append("g")
             .style("fill", function(d, i) { return z(i); })
             .attr("transform", function(d, i) { return "translate(" + x1(i) + ",0)"; })//x座標位置
